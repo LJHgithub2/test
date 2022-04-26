@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애도</title>
+    <link rel="stylesheet" href="../css/setup.css">
+	<link type="text/css" rel="stylesheet" media="(min-width:700px)" href="../css/main.css"></link>
+</head>
+<body>
+   <header>
+        <a href="#" id="logo">
+            <h1>애도</h1>
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../view/login.html">로그인</a>
+                </li>
+                <li>
+                    <a href="../view/register.html">회원가입</a>
+                </li>
+                <li>
+                    <a href="#">부고작성</a>
+                </li>
+                <li>
+                    <a href="#">화환주문</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="page1">
+            <p>애도와 함께하는 <br> 편안하고 안온한 장례식</p>
+            <div class="box">
+                <ul>
+                    <li><a href="#">Gooleplay</a></li>
+                    <li><a href="#">Appstore</a></li>
+                </ul>
+            </div>
+            <div class="arrow_icon"></div>
+        </div>
+
+        <div class="page2">
+            필요한 정보를 확실하고, 꼼꼼하게 <br>
+            간결하고 명확한 편의기능으로 <br>
+            스마트 장례를 진행해보세요.
+        </div>
+
+       
+        <div class="page3">
+			<div class="box1">
+				<div class="intro">장례식장이 추천하는 애도만의 특별한 서비스</div>
+				<div class="img">
+				</div>
+			</div>
+			<div class="box2">
+				<div class="img"></div>
+				<div class="service">
+					<div class="service_nav">
+						<ul>
+							<li><a href="#">모바일부고</a></li>
+							<li><a href="#">근조화환배송</a></li>
+							<li><a href="#">장례식장 예약</a></li>
+							<li><a href="#">조문관리</a></li>
+						</ul>
+					</div>                
+					<div class="ment">
+						보낸 조문과 받은 조문을 간편하게 관리하는 서비스
+					</div>
+				</div>
+
+
+            </div>
+        </div>
+        <div class="page4">
+			<div class="box1">
+				<div class="img"></div>
+			</div>
+			<div class="box2">
+				<div class="intro">
+					모바일 부고서비스,<br>이제 애도하세요. 
+				</div> 
+                <div class="ment">
+                   작성은 간편하지만, 고마운 마음을 담아서 전달해보세요. 
+                </div>
+				
+			</div>
+        </div>
+        <div class="page5">
+			<div class="box1">
+				<div class="intro">
+					어렵고 복잡한 장례식장,<br>예약 이제 애도하세요.
+				</div> 
+				<div class="service">
+					<div class="service_nav">
+						<ul>
+							<li><a href="#">장례식장 검색</a></li>
+							<li><a href="#">제휴혜택</a></li>
+						</ul>
+					</div>
+					<div class="ment">
+					  전국 장례식장을 한 눈에 검색하고, 간편하게 예약하세요.
+					</div>
+				</div> 
+			</div>
+			<div class="box2">
+				<div class="img"></div>
+			</div>
+        </div>
+        <div class="page6">
+			<div class="box1">
+				<div class="img"></div>
+			</div>
+			<div class="box2">
+				<div class="intro">
+					전국 근조화환 배송도<br>이제 애도하세요
+				</div> 
+                <div class="ment">
+                   간편하게 주문하고, 전국 3시간이내 책임 배송해드립니다.<br>
+				   (당일배송 주문마감시간 19시간)
+                </div>
+				
+			</div>
+        </div>
+		<div class="page7">
+			<div class="box1">
+				<div class="img"></div>
+			</div>
+			<div class="box2">
+				<div class="intro">
+					상주님께<br>추모의글을 전달해보세요.<br>
+					당신의 위로가 큰 힘이 됩니다.<br>
+					<br>작성된 추모의 글은<br>빈소현황판에 게시됩니다.
+				</div> 
+			</div>
+		</div>
+
+
+		<div class="outro">
+			<img src="../image/bg_bottom_v2.jpg" width="100%">
+		</div>
+    </main>
+    <footer>
+        사업자 정보 : 대표 박인호<br>
+        사업자 명 : 청란 플라워<br>
+        사업장 소재지 : 전라남도 구례군 구례읍 구례2길 83-1<br>
+        사업장 번호 : 448-92-01531<br>
+        사업 종류 : 도소매
+    </footer>
+</body>
+</html>

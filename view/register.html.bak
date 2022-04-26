@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<link type="text/css" rel="stylesheet" media="(max-width:700px)" href="css/main_mobile.css">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link type="text/css" rel="stylesheet" media="(min-width:700px)" href="../css/register.css"></link>
+		<meta charset="UTF-8">
+		<title>회원가입</title>
+		<style type="text/css">
+			.check_text{ 
+				color:black; 
+			}
+		</style>
+	</head>
+	<body oncontextmenu=" false" ondragstart=" false" onselectstart=" false">
+		<header>
+			<a href="../view/index.html" id="logo">
+				<h1>애도</h1>
+			</a>
+		</header>
+		<main>
+
+			<div class="contain">
+				<form method="post" onsubmit="checkAll()" action="http://118.67.128.124:8080/v1/user">
+					<table>
+						<tr class="td_center">
+							<td><p><h1>회원가입</h1></p></tdcolspan="2">
+						</tr>
+						<tr>
+							<td>
+								<div class="input_div">
+									<span>전화번호</span>
+									<input type="text" name="phone" class="phone" id="phone"value=""autocomplete='off' placeholder="000-0000-0000">
+									<span id="check_text" class="check_text">이미 사용중인 전화번호입니다</span>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+						</tr>
+						<tr height="10%">
+							<td>
+								<div class="input_div">
+									<span>생년월일</span>
+									<input type="date" name="birth" class="birth" id="birth"  value="" autocomplete='off'>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<div class="input_div">
+									<span>이름</span>
+									<input type="text" name="name" class="name"  id="name" value=""autocomplete='off'>
+								</div>
+							</td>
+						</tr>
+						<tr class="td_center">
+							<td><input id="submit" type="submit" disabled="disable"></td>
+						</tr>
+								
+
+						</table>
+		<div class="terms_box">
+			<div id="terms" class="terms">
+				<div id="title" class="title">
+					<h3>
+						
+					</h3>
+				</div>
+				<div id="subtitle" class="subtitle">
+				</div>
+				<div id="content" class="content">
+				</div>
+			</div>
+			<div class="terms_label">
+				<label for="terms_checkbox">
+					<input type="checkbox" id="terms_checkbox" name="terms_checkbox" value="" class="terms_checkbox" disabled="disable">
+				위 약관을 읽고 동의하시겠습니까? </label>
+			</div>
+
+		</div>
+				</form>
+			</div>
+		</main>
+
+		
+
+
+		<script type="text/javascript" src="../script/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="../script/register.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</body>
+</html>

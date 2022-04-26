@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<link type="text/css" rel="stylesheet" media="(max-width:700px)" href="css/main_mobile.css">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link type="text/css" rel="stylesheet" media="(min-width:700px)" href="../css/login.css"></link>
+		<link type="text/css" rel="stylesheet" media="(min-width:700px)" href="../css/bttn.min.css"></link>
+		<meta charset="UTF-8">
+		<title>회원가입</title>
+	</head>
+	<body oncontextmenu=" false" ondragstart="false" onselectstart="false">
+		<header>
+			<a href="../view/index.html" id="logo">
+				<h1>애도</h1>
+			</a>
+		</header>
+		<main>
+			<form method="PUT" action="https://118.67.128.124:8080/v1/user">
+				
+				<div class="contain">
+					<table>
+						<tr class="center"><td colspan="2"><h1>로그인</h1></td></tr>
+						<tr height="140px">
+							<td colspan="2">
+								<span class="phone_span">
+									<input id="phone" class="phone" id="phone" type="text">
+									<label class="phone_label" for="phone">
+										<span class="label_span" id="label_span">전화번호</span>
+									</label>
+
+								</span>
+							</td>
+						</tr>
+						<tr class="center"><td colspan="2" class="bt_td"><a href="#" class="naver">Sign in with naver</a></td></tr>
+						<tr class="center"><td colspan="2" class="bt_td"><a href="#" class="google">Sign in with google</a></td></tr>
+						<tr class="center"><td colspan="2" class="bt_td"><a href="#" class="facebook">Sign in with Facebook</a></td></tr>
+						<tr class="center"><td colspan="2" height="15%"><input type="submit" class="bttn-jelly bttn-royal bttn-lg"></td></tr>
+					</table>
+				</div>
+			</form>
+		
+		
+		</main>
+
+
+
+		<script type="text/javascript" src="../script/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="../script/login.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</body>
+</html>
