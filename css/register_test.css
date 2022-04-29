@@ -1,0 +1,87 @@
+@font-face{
+	font-family: 'Pretendard';
+	src:url('../font/PretendardVariable.woff2') format('woff2'),
+	    url('../font/PretendardVariable.woff2') format('truetype');
+}
+body{ 
+	font-family:'pretendard';
+	background-image: url("../image/top_bg.png");
+	background-repeat: no-repeat;
+	background-size:100vw 100vh;
+}
+form{ 
+	display:flex; 
+}
+table{ 
+	width:50%; 
+}
+form input[type=text],[type=date]{ 
+	box-shadow:2px 2px 2px 2px transparent;
+	transition: box-shadow 0.3s;
+	width:90%;
+	border-radius:5px; 
+	padding:0.8em;
+	border:none;
+}
+form input[type=text]:focus,[type=date]:focus{ 
+	outline:none;
+	box-shadow:0 0 10px red;
+	border-radius:5px; 
+}
+.term{ 
+	width:50%;
+}
+.term .terms_contains{ 
+	width:100%;
+}
+.term .terms_contains .contain{ 
+	border:1px solid; 
+	border-width:1px 1px 0 1px;
+	height:calc(100% / 3);
+}
+.term .terms_contains .contain:nth-last-child(1){ 
+	border-width:1px 1px 1px 1px;
+}
+
+.term .terms_contains .contain .box1{ 
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:1px solid;
+	width:85%;
+}
+.term .terms_contains .contain .box2{ 
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:1px solid;
+	width:15%;
+	height:100%;
+}
+.term .terms_contains .contain .box2 input{ 
+	display:none;
+}
+.term .terms_contains .contain .box2 img{ 
+	content:url("../image/arrow-down.png");
+	width:50px;
+	height:33px;
+	object-fit:contain;
+}
+
+.term .terms_contains .contain .box2 input[type="checkbox"]:checked + img{ 
+	content:url("../image/arrow-up.png");
+}
+.term .terms_checkbox{ 
+	margin-top:10px;
+	width:100%;
+	height:20%;
+}
+.term .terms_contains .contain .term_content{ 
+	height:200px;
+	display:none;
+
+}
+.term .terms_contains .contain .term_bar{ 
+	height:20%;
+	display:flex;
+}
