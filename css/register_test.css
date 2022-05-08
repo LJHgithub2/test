@@ -89,7 +89,7 @@ form input{
 .hidden_term_text{
 	display:none;
 }
-form input[type=submit]{
+.submit_btn{
 	width:95%;
 	border:none;
 	background-color:rgb(128, 128, 128,0.5);
