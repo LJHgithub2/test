@@ -9,7 +9,7 @@
 	</head>
 	<body oncontextmenu="false" ondragstart="false" onselectstart="false">
 		
-		<form method="post" action="#">
+		<form method="post" id="form1" action="#">
 
 			<table>
 				<tr>
@@ -23,7 +23,7 @@
 				</tr>
 				<tr>
 					<td>
-						<input type="text" name="name" class="name" id="naem" autocomplete="off" placeholder="이름"/>
+						<input type="text" name="name" class="name" id="name" autocomplete="off" placeholder="이름"/>
 					</td>
 				</tr>
 				<tr>
@@ -40,7 +40,7 @@
 				<tr>
 					<td>
 						<input type="password" name="pwd" class="pwd" id="pwd" autocomplete="off" placeholder="비밀번호"/>
-						<input type="password" name="pwd_cfm" class="pwd" id="pwd" autocomplete="off" placeholder="비밀번호 확인"/>
+						<input type="password" name="pwd_cfm" class="pwd" id="pwd_cfm" autocomplete="off" placeholder="비밀번호 확인"/>
 					</td>
 				</tr>
 				<tr class="term_content">
@@ -68,7 +68,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td><input type="submit" value="완료"></td>
+					<td><button name="submit" type="button" onclick="validation();" class="submit_btn">완료</button></td>
 				</tr>
 			</table>
 		</form>
