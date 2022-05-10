@@ -9,7 +9,7 @@
 	</head>
 	<body oncontextmenu="false" ondragstart="false" onselectstart="false">
 		
-		<form method="post" id="form1" action="#">
+		<form method="post" action="#">
 
 			<table>
 				<tr>
@@ -19,7 +19,7 @@
 					<td class="title_description">최소한의 정보를 받고있습니다.</td>
 				</tr>
 				<tr>
-					<td class="input_name">이름</td>
+					<td class="input_name" id="input_name">이름&nbsp;&nbsp;<span></span></td>
 				</tr>
 				<tr>
 					<td>
@@ -27,7 +27,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="input_name">전화번호</td>
+					<td class="input_name" id="input_phone">전화번호&nbsp;&nbsp;<span></span></td>
 				</tr>
 				<tr>
 					<td>
@@ -35,11 +35,14 @@
 					</td>
 				</tr>
 				<tr>
-					<td class="input_name">비밀번호</td>
+					<td class="input_name" id="input_pwd">비밀번호&nbsp;&nbsp;<span></span></td>
 				</tr>
 				<tr>
 					<td>
-						<input type="password" name="pwd" class="pwd" id="pwd" autocomplete="off" placeholder="비밀번호"/>
+						<div class="pwd_box">
+							<input type="password" name="pwd" class="pwd" id="pwd" autocomplete="off" placeholder="비밀번호"/>
+							<div class="pwd_cfm_btn">인증하기</div>
+						</div>
 						<input type="password" name="pwd_cfm" class="pwd" id="pwd_cfm" autocomplete="off" placeholder="비밀번호 확인"/>
 					</td>
 				</tr>
@@ -49,7 +52,7 @@
 							<label for="terms" class="terms_lb">
 								<input type="checkbox" name="terms" class="terms" id="terms" />
 								<img class="terms_img"/>
-								전체동의
+								전체동의&nbsp;&nbsp;<span></span>
 							</label>
 							<br/>
 							<div class="terms_bar">
@@ -68,7 +71,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td><button name="submit" type="button" onclick="validation();" class="submit_btn">완료</button></td>
+					<td><input type="submit" disabled="disable" id="submit_btn" class="submit_btn" value="완료"></input></td>
 				</tr>
 			</table>
 		</form>

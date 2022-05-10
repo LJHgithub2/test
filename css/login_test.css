@@ -1,0 +1,32 @@
+@font-face{
+	font-family: 'Pretendard';
+	src:url('../font/PretendardVariable.woff2') format('woff2'),
+	    url('../font/PretendardVariable.woff2') format('truetype');
+}
+body{ 
+	font-family:'pretendard';
+	background:linear-gradient(180deg,#FFC887 0%,rgba(255, 255, 255, 0) 43.27%),url("../image/bottom_bg.png");
+	background-position: center top,center bottom;
+	background-repeat: no-repeat,no-repeat;
+	background-size:100vw 100vh,100vw 50vh;
+	height:97vh;
+}
+form{
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid;
+}
+table{
+    width:50%;
+    height:80%;
+    border:1px solid;
+}
+.title{
+    font-size:4em;
+    font-weight: 700;
+}
+input[type="text"]{
+    width:100%;
+}
