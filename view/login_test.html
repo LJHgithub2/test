@@ -11,28 +11,30 @@
     <body>
         <form method="post" action="#">
             <table>
-                    <tr>
-                        <td><span class="title">로그인</span></td>
+                    <tr height="20%">
+                        <td class="one_td title_td" colspan="3"><span class="title">로그인</span></td>
                     </tr>
-                    <tr>
-                        <td><input type="text"></td>
+                    <tr height="15%">
+                        <td class="one_td" colspan="3"><input type="text" placeholder="전화번호"></td>
                     </tr>
-                    <tr>
-                        <td><input type="text"></td>
+                    <tr height="15%">
+                        <td class="one_td" colspan="3"><input type="text" placeholder="비밀번호(영문, 숫자, 특수 문자 포함 8자 이상)"></td>
                     </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td>아이디 비번찾기</td>
+                    <tr height="5%" class="find_id">
+                        <td><label for="save_id"><input id="save_id" name="save_id" type="checkbox">아이디 저장</label></td>
+                        <td></td>
+                        <td style="float:right;line-height: 1;">아이디 · 비밀번호 찾기<img src="../image/Vector.png"></td>
                     </tr>
-                    <tr>
-                        <td><input type="submit"></td>
+                    <tr height="20%">
+                        <td class="one_td" colspan="3"><input value="로그인" type="submit"></td>
                     </tr>            
-                    <tr>
-                        <td>-----------또는---------------</td>
+                    <tr height="5%">
+                        <td width="45%"><hr></td>
+                        <td width="10%">또는</td>
+                        <td width="45%"><hr></td>
                     </tr>
-                    <tr>
-                        <td>아직계정이 없나요?</td>
-                        <td>회원가입</td>
+                    <tr height="20%">
+                        <td class="one_td" colspan="3">아직 계정이 없나요?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">회원가입</a></td>
                     </tr>
                 </tbody>
             </table>

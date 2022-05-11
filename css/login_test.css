@@ -10,6 +10,7 @@ body{
 	background-repeat: no-repeat,no-repeat;
 	background-size:100vw 100vh,100vw 50vh;
 	height:97vh;
+    color:#878787;
 }
 form{
     height:100%;
@@ -19,14 +20,48 @@ form{
     border:1px solid;
 }
 table{
-    width:50%;
-    height:80%;
+    width:45%;
+    height:70%;
     border:1px solid;
 }
 .title{
-    font-size:4em;
+    font-size:3em;
     font-weight: 700;
+    color:black;
 }
+
 input[type="text"]{
+    width:94%;
+    padding:18px;
+    border:1px solid #F3B368;
+    border-radius: 6px;
+    font-size:1em;
+}
+input[type="text"]:focus{
+    outline:none;
+    border:2px solid #f1870e;
+}
+input[type="submit"]{
     width:100%;
+    padding: 15px;
+    border:none;
+    border-radius: 4px;
+    background-color:#F3B368 ;
+    color:white;
+    font-size:1em;
+}
+.one_td{
+    width:100%;
+}
+.find_id{
+    font-size:0.9em;
+}
+img{
+    margin:0px 5px;
+}
+tr:nth-child(n+6){
+    text-align: center;
+}
+tr:nth-child(5) td{
+    padding: 6% 0 3% 0;
 }
